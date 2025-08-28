@@ -1,4 +1,4 @@
-﻿namespace FP_03._1;
+﻿namespace FP_03._01;
 
 class Program
 {
