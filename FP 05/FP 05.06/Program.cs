@@ -4,20 +4,15 @@ class Program
 {
     static void Main(string[] args)
     {
-        double n;
-        double e;
-        Console.Write("Insira o valor de N: ");
-        n = Convert.ToDouble(Console.ReadLine());
-        
-        e = 1;
+        int num;
+        double equacao = 0;
+        Console.Write("Número: ");
+        num = Convert.ToInt32(Console.ReadLine());
 
-        for (double i = 2; i <= n; i++) //Começa no 2 visto que se n é 1 já está incluso
+        for (int i = 1; i <= num; i++)
         {
-            e = e + 1 / i;
-            //Console.WriteLine("O resultado final é {0}", e);
-
+            equacao = 1.0 / i + equacao;
         }
-        
-        Console.WriteLine("O resultado final é {0}", e);
+        Console.WriteLine(equacao);
     }
 }
