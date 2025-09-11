@@ -4,14 +4,14 @@ class Program
 {
     static void Main(string[] args)
     {
-        double p1, p2, media;
+        double prova1, prova2, media;
         media = 5.0;
 
         Console.Write("Insira a nota da primeira prova: ");
-        p1 = Convert.ToDouble(Console.ReadLine());
+        prova1 = Convert.ToDouble(Console.ReadLine());
         Console.Write("Insira a nota da segunda prova: ");
-        p2 = Convert.ToDouble(Console.ReadLine());
-        PontosParaAprovacao(p1, p2, media);
+        prova2 = Convert.ToDouble(Console.ReadLine());
+        PontosParaAprovacao(prova1, prova2, media);
         Console.ReadKey();
     }
 
